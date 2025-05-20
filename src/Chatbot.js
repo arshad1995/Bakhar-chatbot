@@ -179,7 +179,7 @@ const GeminiChatBot = () => {
 
   return (
     <div className="chat-container">
-      <h2>💬 Gemini Chatbot</h2>
+      <h2>💬 Siri Chatbot</h2>
       <div className="controls">
         <button onClick={clearChat}>Clear Chat</button>
         <button onClick={exportChat}>Export Chat</button>
@@ -209,7 +209,7 @@ const GeminiChatBot = () => {
             className={`message ${msg.role === "user" ? "user" : "model"}`}
           >
             <strong>
-              {msg.role === "user" ? "You" : "Gemini"}{" "}
+              {msg.role === "user" ? "You" : "Siri"}{" "}
               {msg.role === "model" && (
                 <span
                   className="speak-icon"

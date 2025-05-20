@@ -1,182 +1,180 @@
-
 .chat-container {
-    max-width: 800px;
-    margin: 2rem auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1rem 2rem;
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  .controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .controls button {
-    background-color: #3f51b5;
-    border: none;
-    color: white;
-    padding: 8px 14px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-  }
-  
-  .controls button:hover {
-    background-color: #303f9f;
-  }
-  
-  .controls label {
-    font-size: 0.9rem;
-    color: #555;
-    user-select: none;
-  }
-  
-  .suggestions {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  
-  .suggestions button {
-    background: #e3e3e3;
-    border: none;
-    border-radius: 15px;
-    padding: 6px 14px;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .suggestions button:hover {
-    background: #c5cae9;
-    color: #3f51b5;
-  }
-  
-  .chat-box {
-    height: 480px;
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 8px;
-    background: white;
-    margin-bottom: 1rem;
-  }
-  
-  .message {
-    margin-bottom: 15px;
-    max-width: 75%;
-    word-wrap: break-word;
-    position: relative;
-    padding: 8px 12px;
-    border-radius: 15px;
-  }
-  
-  .message strong {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
-  }
-  
-  .message.user {
-    background: #dcf8c6;
-    margin-left: auto;
-    text-align: right;
-  }
-  
-  .message.model {
-    background: #eee;
-    margin-right: auto;
-    text-align: left;
-  }
-  
-  .message-text {
-    white-space: pre-wrap;
-    font-size: 1rem;
-    line-height: 1.4;
-  }
-  
-  .images {
-    margin-top: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: flex-start;
-  }
-  
-  .images img {
-    max-width: 120px;
-    max-height: 90px;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-  }
-  
-  .images img:hover {
-    transform: scale(1.05);
-  }
-  
-  .urls {
-    margin-top: 8px;
-    font-size: 0.9rem;
-  }
-  
-  .blog-link {
-    display: inline-block;
-    margin-right: 10px;
-    color: #3f51b5;
-    text-decoration: underline;
-  }
-  
-  .blog-link:hover {
-    color: #303f9f;
-  }
-  
-  .timestamp {
-    margin-top: 5px;
-    font-size: 0.75rem;
-    color: #777;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  .edit-btn {
-    margin-left: 10px;
-    font-size: 0.75rem;
-    background: transparent;
-  ChatGPT said:
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.controls button {
+  background-color: #3f51b5;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #303f9f;
+}
+
+.controls label {
+  font-size: 0.9rem;
+  color: #555;
+  user-select: none;
+}
+
+.suggestions {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.suggestions button {
+  background: #e3e3e3;
+  border: none;
+  border-radius: 15px;
+  padding: 6px 14px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.suggestions button:hover {
+  background: #c5cae9;
+  color: #3f51b5;
+}
+
+.chat-box {
+  height: 480px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background: white;
+  margin-bottom: 1rem;
+}
+
+.message {
+  margin-bottom: 15px;
+  max-width: 75%;
+  word-wrap: break-word;
+  position: relative;
+  padding: 8px 12px;
+  border-radius: 15px;
+}
+
+.message strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.message.user {
+  background: #dcf8c6;
+  margin-left: auto;
+  text-align: right;
+}
+
+.message.model {
+  background: #eee;
+  margin-right: auto;
+  text-align: left;
+}
+
+.message-text {
+  white-space: pre-wrap;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.images {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.images img {
+  max-width: 120px;
+  max-height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+
+.urls {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.blog-link {
+  display: inline-block;
+  margin-right: 10px;
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+.blog-link:hover {
+  color: #303f9f;
+}
+
+.timestamp {
+  margin-top: 5px;
+  font-size: 0.75rem;
+  color: #777;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.edit-btn {
+  margin-left: 10px;
+  font-size: 0.75rem;
+  background: transparent;
   border: none;
   color: #3f51b5;
   cursor: pointer;
-  }
-  
-  .input-area {
+}
+
+.input-area {
   display: flex;
   gap: 10px;
-  }
-  
-  .input-area input {
+}
+
+.input-area input {
   flex: 1;
   padding: 0.8rem;
   font-size: 1rem;
   border-radius: 10px;
   border: 1px solid #ccc;
-  }
-  
-  .input-area button {
+}
+
+.input-area button {
   padding: 0 1rem;
   font-size: 1rem;
   background: #3f51b5;
@@ -184,41 +182,39 @@
   color: white;
   border-radius: 10px;
   cursor: pointer;
-  }
-  
-  .typing-indicator {
+}
+
+.typing-indicator {
   font-style: italic;
   color: #666;
-  }
-  
-  .error-msg {
+}
+
+.error-msg {
   color: red;
   text-align: center;
   margin-top: 10px;
-  }
+}
 
-  .input-area button[title="Speak"] {
-    margin-left: 8px;
-    font-size: 18px;
-    padding: 8px;
-    background-color: #f0f0f0;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .input-area button[title="Speak"]:hover {
-    background-color: #ddd;
-  }
-  
-  .input-area button[title="Speak"]:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
+.input-area button[title="Speak"] {
+  margin-left: 8px;
+  font-size: 18px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
-  .speak-icon:hover {
-    color: #4caf50;
-    transform: scale(1.2);
-  }
-  
-  
+.input-area button[title="Speak"]:hover {
+  background-color: #ddd;
+}
+
+.input-area button[title="Speak"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.speak-icon:hover {
+  color: #4caf50;
+  transform: scale(1.2);
+}
